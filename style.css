@@ -1,0 +1,144 @@
+.bg1 {
+    background-color: #1F2833;
+}
+.nav-item-color {
+    font-weight: bold;
+    color: #DBDBDB;
+}
+.nav-font-bold {
+    font-weight: bold;
+}
+.custom-navbar2 {
+    background-color: #1F2833;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+.dropdown-item.btn-logout:hover {
+    background-color: #DBDBDB;
+}
+.navkular {
+    color: #DBDBDB;
+}
+.navkular:hover {
+    color: #DBDBDB;
+}
+.navkular:link {
+    color: #DBDBDB;
+}
+.container {
+    color: #DBDBDB;
+}
+p {
+    font-size: 25px;
+    font-family: 'Lora';
+}
+h1{
+    font-size: 40px;
+    font-family: 'Lora';
+}
+.btn {
+    font-weight: bold;
+}
+.btn-dark:hover, .btn-secondary:hover {
+    color: #DBDBDB !important;
+}
+.bg2 {
+    background-color: #1A0B30;
+}
+a {
+    color: #DBDBDB;
+}
+a:visited {
+    color: #DBDBDB;
+}
+a:-webkit-any-link{
+    text-decoration:none;
+}
+.login-btn{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+.navparagraph{
+    font-family: 'Verdana';
+    font-weight: bold;
+    color: #C2C2C1;
+    font-size: 15px;
+    position: absolute;
+    top: 33px;
+    right: 60px;
+}
+.btn-logout{
+    position: absolute;
+    right: 1px;
+    font-size: 15px;
+}
+.dropdown-menu{
+    background-color: #0d0c0b;
+}
+
+@media (min-width: 1800px) {
+    .ani {
+        opacity: 0;
+        transform: translateX(100px); 
+        transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    }
+
+    .ani-right {
+        opacity: 0;
+        transform: translateX(-100px); 
+        transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    }
+
+    .ani-up {
+        opacity: 0;
+        transform: translateY(50px); 
+        transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    }
+
+    .show-container {
+        opacity: 1;
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+
+.input-box input {
+    width: 100%;
+    height: 20px;
+    background:  #fbf8f6;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(53, 44, 44, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: auto;
+    background:  #fbf8f6;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(53, 44, 44, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px;
+}
+
+.btn-rounded{
+    border-radius: 100px;
+}
+.btn-message{
+    background-color: #4e4e4e;
+}
+
